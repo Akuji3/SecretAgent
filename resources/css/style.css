@@ -5,6 +5,8 @@ html {
 
 body {
   font-family: Helvetica;
+  width: 960px;
+  margin: 0px auto;
 }
 
 /* Header */
@@ -48,7 +50,6 @@ header {
   width: 20rem;
   padding: 2rem 3rem;
   max-width: 960px;
-  margin: 0px auto;
 }
 
 .bannerbox h2 {
@@ -62,4 +63,75 @@ header {
   color: white;
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* Nav Section */
+
+nav {
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav span {
+  margin: .75rem 0px;
+}
+
+/* Gallery Section */
+
+.gallery {
+  margin: 3rem 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallerydiv {
+  width: 30%;
+  text-align: center;
+  border: 4px solid black;
+}
+
+.gallerydiv img {
+  height: 9rem;
+  margin: 2rem 0px;
+  max-width: 80%;
+}
+
+.gallerydiv h3 {
+  color: white;
+  background-color: black;
+  padding: .5rem 0px;
+}
+
+/* Info Section */
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.location,
+.hours {
+  width: 35%;
+}
+
+.location h1,
+.hours h1 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer */
+
+footer {
+  height: 5rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
