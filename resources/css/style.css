@@ -79,6 +79,10 @@ nav span {
   margin: .75rem 0px;
 }
 
+.nav2 {
+  display: none;
+}
+
 /* Gallery Section */
 
 .gallery {
@@ -134,4 +138,63 @@ footer {
   background-color: black;
   display: flex;
   align-items: center;
+}
+
+.footerdiv {
+  margin-left: .5rem;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1024px) {
+  .bannerbox {
+    margin-left: 3rem;
+  }
+
+  .bannerbox h2 {
+    font-size: .8rem;
+  }
+
+  .bannerbox h1 {
+    font-size:1.75rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .nav2 {
+    background-color: firebrick;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav2 span {
+    margin: .75rem 0px;
+  }
+
+  .gallery {
+    margin-top: 0px;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallerydiv {
+    width: 47%;
+    margin-top: 1.8rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header h1 {
+    display: none;
+  }
+  .header img {
+    margin: .25rem auto;
+  }
 }
