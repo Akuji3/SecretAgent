@@ -206,6 +206,10 @@ footer {
     margin: 0px 0px;
   }
 
+  .gallerydiv {
+      width: 90%;
+  }
+
   .info {
     display: flex;
     flex-direction: column;
