@@ -194,7 +194,19 @@ footer {
   .header h1 {
     display: none;
   }
+
   .header img {
     margin: .25rem auto;
+  }
+
+  .bannerbox {
+    position: relative;
+    top: 16.5rem;
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  footer {
+    justify-content: center;
   }
 }
