@@ -206,6 +206,17 @@ footer {
     margin: 0px 0px;
   }
 
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location {
+    margin-bottom: .5rem;
+  }
+
   footer {
     justify-content: center;
   }
