@@ -206,8 +206,13 @@ footer {
     margin: 0px 0px;
   }
 
+  .gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .gallerydiv {
-      width: 90%;
+      width: 47%;
   }
 
   .info {
